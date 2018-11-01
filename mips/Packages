@@ -30,6 +30,22 @@ OE: enigma2-plugin-extensions-epgshare
 License: CLOSED
 
 
+Package: enigma2-plugin-systemplugins-alexaservice
+Version: 2.61+git0+b09ae7c0a5-r0
+Depends: python-six, enigma2-plugin-systemplugins-globalsearch, python-requests, python-core, python-levenshtein, libc6 (>= 2.21), python-fuzzywuzzy
+Section: base
+Architecture: mips32el
+MD5Sum: 8e5b915b83472fd8b4497f1e9a8f082a
+Size: 505912
+Filename: enigma2-plugin-systemplugins-alexaservice_2.61+git0+b09ae7c0a5-r0_mips32el.ipk
+Description: Alexa Skill Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://192.168.2.63:3000/Henrik/alexaservice.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-alexaservice
+License: CLOSED
+
+
 Package: enigma2-plugin-systemplugins-boxfind
 Version: 1.36+git0+9a17336742-r0
 Depends: python-core, libc6 (>= 2.21)
