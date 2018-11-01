@@ -1,3 +1,19 @@
+Package: enigma2-plugin-systemplugins-globalsearch
+Version: 1.15+git0+83e5f3b340-r0
+Depends: python-core, python-google-api-client, python-pytube, libc6 (>= 2.21), ffmpeg
+Section: base
+Architecture: mips32el
+MD5Sum: 1397348fd26fd439c843956307ee2b1b
+Size: 391258
+Filename: enigma2-plugin-systemplugins-globalsearch_1.15+git0+83e5f3b340-r0_mips32el.ipk
+Description: Global Search Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/globalsearch.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-globalsearch
+License: CLOSED
+
+
 Package: enigma2-plugin-skin-fluid
 Version: 3.122+git0+c778de1858-r0
 Depends: python-core, python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-imaging, libc6 (>= 2.21)
@@ -59,22 +75,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
 OE: enigma2-plugin-systemplugins-boxfind
-License: CLOSED
-
-
-Package: enigma2-plugin-systemplugins-globalsearch
-Version: 1.14+git0+83e5f3b340-r0
-Depends: python-core, python-google-api-client, ffmpeg, libc6 (>= 2.21)
-Section: base
-Architecture: mips32el
-MD5Sum: cfafcbe207107826261d9a040e7478f4
-Size: 391262
-Filename: enigma2-plugin-systemplugins-globalsearch_1.14+git0+83e5f3b340-r0_mips32el.ipk
-Description: Global Search Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/globalsearch.git;protocol=http; file://setup.py
-OE: enigma2-plugin-systemplugins-globalsearch
 License: CLOSED
 
 
