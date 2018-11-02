@@ -1,59 +1,11 @@
-Package: enigma2-plugin-systemplugins-globalsearch
-Version: 1.15+git0+83e5f3b340-r0
-Depends: python-core, python-google-api-client, python-pytube, libc6 (>= 2.21), ffmpeg
-Section: base
-Architecture: mips32el
-MD5Sum: 1397348fd26fd439c843956307ee2b1b
-Size: 391258
-Filename: enigma2-plugin-systemplugins-globalsearch_1.15+git0+83e5f3b340-r0_mips32el.ipk
-Description: Global Search Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/globalsearch.git;protocol=http; file://setup.py
-OE: enigma2-plugin-systemplugins-globalsearch
-License: CLOSED
-
-
-Package: enigma2-plugin-skin-fluid
-Version: 3.122+git0+c778de1858-r0
-Depends: python-core, python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-imaging, libc6 (>= 2.21)
-Section: base
-Architecture: mips32el
-MD5Sum: 72c5f84dd1e2c00c08b299e899eb4279
-Size: 9274986
-Filename: enigma2-plugin-skin-fluid_3.122+git0+c778de1858-r0_mips32el.ipk
-Description: Fluid Skin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/fluid.git;protocol=http; file://setup.py
-OE: enigma2-plugin-skin-fluid
-License: CLOSED
-
-
-Package: enigma2-plugin-extensions-epgshare
-Version: 5.81+git0+cfff9258e4-r0
-Depends: python-core, python-json, enigma2, python-requests, python-imaging, libc6 (>= 2.21), enigma2-plugin-systemplugins-boxfind
-Section: base
-Architecture: mips32el
-MD5Sum: 27e8c96015d30fb5be4ee03f3a8ccb5f
-Size: 252874
-Filename: enigma2-plugin-extensions-epgshare_5.81+git0+cfff9258e4-r0_mips32el.ipk
-Description: EPG Share Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/epgshare.git;protocol=http; file://setup.py
-OE: enigma2-plugin-extensions-epgshare
-License: CLOSED
-
-
 Package: enigma2-plugin-systemplugins-alexaservice
-Version: 2.61+git0+b09ae7c0a5-r0
+Version: 2.63+git0+14499f832c-r0
 Depends: python-six, enigma2-plugin-systemplugins-globalsearch, python-requests, python-core, python-levenshtein, libc6 (>= 2.21), python-fuzzywuzzy
 Section: base
 Architecture: mips32el
-MD5Sum: 8e5b915b83472fd8b4497f1e9a8f082a
-Size: 505912
-Filename: enigma2-plugin-systemplugins-alexaservice_2.61+git0+b09ae7c0a5-r0_mips32el.ipk
+MD5Sum: bf68a47dcbfa1264e6385c64a2c98658
+Size: 507748
+Filename: enigma2-plugin-systemplugins-alexaservice_2.63+git0+14499f832c-r0_mips32el.ipk
 Description: Alexa Skill Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
@@ -62,19 +14,67 @@ OE: enigma2-plugin-systemplugins-alexaservice
 License: CLOSED
 
 
+Package: enigma2-plugin-skin-fluid
+Version: 3.123+git0+1723d3a7be-r0
+Depends: python-core, python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-imaging, libc6 (>= 2.21)
+Section: base
+Architecture: mips32el
+MD5Sum: 9305b87a7836fc1ec9a32f1ae71ee0c6
+Size: 9280164
+Filename: enigma2-plugin-skin-fluid_3.123+git0+1723d3a7be-r0_mips32el.ipk
+Description: Fluid Skin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/fluid.git;protocol=http; file://setup.py
+OE: enigma2-plugin-skin-fluid
+License: CLOSED
+
+
 Package: enigma2-plugin-systemplugins-boxfind
-Version: 1.36+git0+9a17336742-r0
+Version: 1.37+git0+c0faac2bb9-r0
 Depends: python-core, libc6 (>= 2.21)
 Section: base
 Architecture: mips32el
-MD5Sum: 65e8d7aaaf0de492248252086c21d5df
-Size: 29766
-Filename: enigma2-plugin-systemplugins-boxfind_1.36+git0+9a17336742-r0_mips32el.ipk
+MD5Sum: 4915db9c53e88ccd5824fce6713dac10
+Size: 31424
+Filename: enigma2-plugin-systemplugins-boxfind_1.37+git0+c0faac2bb9-r0_mips32el.ipk
 Description: BoxFind Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
 OE: enigma2-plugin-systemplugins-boxfind
+License: CLOSED
+
+
+Package: enigma2-plugin-systemplugins-globalsearch
+Version: 1.16+git0+73b1551fcb-r0
+Depends: python-core, python-google-api-client, python-pytube, libc6 (>= 2.21), ffmpeg
+Section: base
+Architecture: mips32el
+MD5Sum: ebf63a2a9ebb6aeb2ba6d133a6e7c459
+Size: 392874
+Filename: enigma2-plugin-systemplugins-globalsearch_1.16+git0+73b1551fcb-r0_mips32el.ipk
+Description: Global Search Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/globalsearch.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-globalsearch
+License: CLOSED
+
+
+Package: enigma2-plugin-extensions-epgshare
+Version: 5.82+git0+8827fa8d43-r0
+Depends: python-core, python-json, enigma2, python-requests, python-imaging, libc6 (>= 2.21), enigma2-plugin-systemplugins-boxfind
+Section: base
+Architecture: mips32el
+MD5Sum: 63d10d90bd946edd418789f00b1e98a1
+Size: 254016
+Filename: enigma2-plugin-extensions-epgshare_5.82+git0+8827fa8d43-r0_mips32el.ipk
+Description: EPG Share Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/epgshare.git;protocol=http; file://setup.py
+OE: enigma2-plugin-extensions-epgshare
 License: CLOSED
 
 

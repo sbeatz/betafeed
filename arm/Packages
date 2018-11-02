@@ -1,43 +1,11 @@
-Package: enigma2-plugin-extensions-vmc5
-Version: 1.154+git0+fea242c2af-r0
-Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: fb031385b5818c1db3ef3dc70d448f92
-Size: 5020580
-Filename: enigma2-plugin-extensions-vmc5_1.154+git0+fea242c2af-r0_armv7ahf-vfp-neon.ipk
-Description: VMC5 Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
-OE: enigma2-plugin-extensions-vmc5
-License: CLOSED
-
-
-Package: enigma2-plugin-skin-fluid
-Version: 3.122+git0+c778de1858-r0
-Depends: libpython2.7-1.0 (>= 2.7.9), python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-core, libc6 (>= 2.21), python-imaging
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: 0b4d10026dd64c86179399a3f846b091
-Size: 9460942
-Filename: enigma2-plugin-skin-fluid_3.122+git0+c778de1858-r0_armv7ahf-vfp-neon.ipk
-Description: Fluid Skin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/fluid.git;protocol=http; file://setup.py
-OE: enigma2-plugin-skin-fluid
-License: CLOSED
-
-
 Package: enigma2-plugin-systemplugins-alexaservice
-Version: 2.61+git0+b09ae7c0a5-r0
+Version: 2.63+git0+14499f832c-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-six, enigma2-plugin-systemplugins-globalsearch, python-requests, python-core, python-levenshtein, libc6 (>= 2.21), python-fuzzywuzzy
 Section: base
 Architecture: armv7ahf-vfp-neon
-MD5Sum: 1335c9fc54b8b9a3e4125642223249b1
-Size: 533960
-Filename: enigma2-plugin-systemplugins-alexaservice_2.61+git0+b09ae7c0a5-r0_armv7ahf-vfp-neon.ipk
+MD5Sum: c98620ac69bf3fc1d97ba3225ad8042f
+Size: 535176
+Filename: enigma2-plugin-systemplugins-alexaservice_2.63+git0+14499f832c-r0_armv7ahf-vfp-neon.ipk
 Description: Alexa Skill Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
@@ -46,14 +14,30 @@ OE: enigma2-plugin-systemplugins-alexaservice
 License: CLOSED
 
 
+Package: enigma2-plugin-skin-fluid
+Version: 3.123+git0+1723d3a7be-r0
+Depends: libpython2.7-1.0 (>= 2.7.9), python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-core, libc6 (>= 2.21), python-imaging
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: 1b5ff8666a10343459148a306f8f61f6
+Size: 9462776
+Filename: enigma2-plugin-skin-fluid_3.123+git0+1723d3a7be-r0_armv7ahf-vfp-neon.ipk
+Description: Fluid Skin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/fluid.git;protocol=http; file://setup.py
+OE: enigma2-plugin-skin-fluid
+License: CLOSED
+
+
 Package: enigma2-plugin-systemplugins-globalsearch
-Version: 1.15+git0+83e5f3b340-r0
+Version: 1.16+git0+73b1551fcb-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-google-api-client, ffmpeg, python-core, libc6 (>= 2.21), python-pytube
 Section: base
 Architecture: armv7ahf-vfp-neon
-MD5Sum: 02ac4cf1aaa9bcec2cb61d4831208dc2
-Size: 403648
-Filename: enigma2-plugin-systemplugins-globalsearch_1.15+git0+83e5f3b340-r0_armv7ahf-vfp-neon.ipk
+MD5Sum: 60957ad2a71cdf1d5fe79e96d93add92
+Size: 405502
+Filename: enigma2-plugin-systemplugins-globalsearch_1.16+git0+73b1551fcb-r0_armv7ahf-vfp-neon.ipk
 Description: Global Search Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
@@ -62,35 +46,51 @@ OE: enigma2-plugin-systemplugins-globalsearch
 License: CLOSED
 
 
-Package: enigma2-plugin-systemplugins-boxfind
-Version: 1.36+git0+9a17336742-r0
-Depends: python-core, libpython2.7-1.0 (>= 2.7.9), libc6 (>= 2.21)
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: 2abedc48e937b86ea722864c0a9d004e
-Size: 30060
-Filename: enigma2-plugin-systemplugins-boxfind_1.36+git0+9a17336742-r0_armv7ahf-vfp-neon.ipk
-Description: BoxFind Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
-OE: enigma2-plugin-systemplugins-boxfind
-License: CLOSED
-
-
 Package: enigma2-plugin-extensions-epgshare
-Version: 5.81+git0+cfff9258e4-r0
+Version: 5.82+git0+8827fa8d43-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-core, python-json, enigma2, python-requests, python-imaging, libc6 (>= 2.21), enigma2-plugin-systemplugins-boxfind
 Section: base
 Architecture: armv7ahf-vfp-neon
-MD5Sum: 79ffae47f15cbe6075c6892bc3dee087
-Size: 277542
-Filename: enigma2-plugin-extensions-epgshare_5.81+git0+cfff9258e4-r0_armv7ahf-vfp-neon.ipk
+MD5Sum: 1d4c5565f0a684a9b8b8de2a95bba14e
+Size: 279382
+Filename: enigma2-plugin-extensions-epgshare_5.82+git0+8827fa8d43-r0_armv7ahf-vfp-neon.ipk
 Description: EPG Share Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/epgshare.git;protocol=http; file://setup.py
 OE: enigma2-plugin-extensions-epgshare
+License: CLOSED
+
+
+Package: enigma2-plugin-extensions-vmc5
+Version: 1.155+git0+bc3c9d9476-r0
+Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: ef08541497475cf9e246381e0e613b3b
+Size: 5022726
+Filename: enigma2-plugin-extensions-vmc5_1.155+git0+bc3c9d9476-r0_armv7ahf-vfp-neon.ipk
+Description: VMC5 Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
+OE: enigma2-plugin-extensions-vmc5
+License: CLOSED
+
+
+Package: enigma2-plugin-systemplugins-boxfind
+Version: 1.37+git0+c0faac2bb9-r0
+Depends: python-core, libpython2.7-1.0 (>= 2.7.9), libc6 (>= 2.21)
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: 90e52b58b1c4cfc5655ee03534551221
+Size: 32040
+Filename: enigma2-plugin-systemplugins-boxfind_1.37+git0+c0faac2bb9-r0_armv7ahf-vfp-neon.ipk
+Description: BoxFind Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-boxfind
 License: CLOSED
 
 
