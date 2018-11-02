@@ -62,6 +62,22 @@ OE: enigma2-plugin-extensions-epgshare
 License: CLOSED
 
 
+Package: enigma2-plugin-systemplugins-boxfind
+Version: 1.38+git0+c0faac2bb9-r0
+Depends: python-core, libpython2.7-1.0 (>= 2.7.9), libc6 (>= 2.21)
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: 137b8eed6217185ffdf28d86dde4f4c8
+Size: 32042
+Filename: enigma2-plugin-systemplugins-boxfind_1.38+git0+c0faac2bb9-r0_armv7ahf-vfp-neon.ipk
+Description: BoxFind Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-boxfind
+License: CLOSED
+
+
 Package: enigma2-plugin-extensions-vmc5
 Version: 1.156+git0+cc79c9c363-r0
 Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
@@ -75,22 +91,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
 OE: enigma2-plugin-extensions-vmc5
-License: CLOSED
-
-
-Package: enigma2-plugin-systemplugins-boxfind
-Version: 1.37+git0+c0faac2bb9-r0
-Depends: python-core, libpython2.7-1.0 (>= 2.7.9), libc6 (>= 2.21)
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: 90e52b58b1c4cfc5655ee03534551221
-Size: 32040
-Filename: enigma2-plugin-systemplugins-boxfind_1.37+git0+c0faac2bb9-r0_armv7ahf-vfp-neon.ipk
-Description: BoxFind Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
-OE: enigma2-plugin-systemplugins-boxfind
 License: CLOSED
 
 
