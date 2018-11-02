@@ -1,11 +1,11 @@
 Package: enigma2-plugin-systemplugins-alexaservice
-Version: 2.63+git0+14499f832c-r0
+Version: 2.64+git0+d155a702f8-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-six, enigma2-plugin-systemplugins-globalsearch, python-requests, python-core, python-levenshtein, libc6 (>= 2.21), python-fuzzywuzzy
 Section: base
 Architecture: armv7ahf-vfp-neon
-MD5Sum: c98620ac69bf3fc1d97ba3225ad8042f
-Size: 535176
-Filename: enigma2-plugin-systemplugins-alexaservice_2.63+git0+14499f832c-r0_armv7ahf-vfp-neon.ipk
+MD5Sum: b990e169916f9473612981926eb8a3a2
+Size: 534848
+Filename: enigma2-plugin-systemplugins-alexaservice_2.64+git0+d155a702f8-r0_armv7ahf-vfp-neon.ipk
 Description: Alexa Skill Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
@@ -63,13 +63,13 @@ License: CLOSED
 
 
 Package: enigma2-plugin-extensions-vmc5
-Version: 1.155+git0+bc3c9d9476-r0
+Version: 1.156+git0+cc79c9c363-r0
 Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
 Section: base
 Architecture: armv7ahf-vfp-neon
-MD5Sum: ef08541497475cf9e246381e0e613b3b
-Size: 5022726
-Filename: enigma2-plugin-extensions-vmc5_1.155+git0+bc3c9d9476-r0_armv7ahf-vfp-neon.ipk
+MD5Sum: 9262b35c857f9c6dbc43a771fb1594f2
+Size: 5022980
+Filename: enigma2-plugin-extensions-vmc5_1.156+git0+cc79c9c363-r0_armv7ahf-vfp-neon.ipk
 Description: VMC5 Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
