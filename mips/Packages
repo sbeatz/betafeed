@@ -1,3 +1,19 @@
+Package: enigma2-plugin-systemplugins-boxfind
+Version: 1.39+git0+c0faac2bb9-r0
+Depends: python-core, libc6 (>= 2.21)
+Section: base
+Architecture: mips32el
+MD5Sum: 3b12d620a255180b94ae1c33c882e8f2
+Size: 31434
+Filename: enigma2-plugin-systemplugins-boxfind_1.39+git0+c0faac2bb9-r0_mips32el.ipk
+Description: BoxFind Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-boxfind
+License: CLOSED
+
+
 Package: enigma2-plugin-skin-fluid
 Version: 3.123+git0+1723d3a7be-r0
 Depends: python-core, python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-imaging, libc6 (>= 2.21)
@@ -11,22 +27,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/fluid.git;protocol=http; file://setup.py
 OE: enigma2-plugin-skin-fluid
-License: CLOSED
-
-
-Package: enigma2-plugin-systemplugins-boxfind
-Version: 1.37+git0+c0faac2bb9-r0
-Depends: python-core, libc6 (>= 2.21)
-Section: base
-Architecture: mips32el
-MD5Sum: 4915db9c53e88ccd5824fce6713dac10
-Size: 31424
-Filename: enigma2-plugin-systemplugins-boxfind_1.37+git0+c0faac2bb9-r0_mips32el.ipk
-Description: BoxFind Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
-OE: enigma2-plugin-systemplugins-boxfind
 License: CLOSED
 
 
@@ -44,6 +44,21 @@ Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/globalsearch.git;protocol=http; file://setup.py
 OE: enigma2-plugin-systemplugins-globalsearch
 License: CLOSED
+
+
+Package: enigma2-plugin-systemplugins-hmmmdada-beta-feed
+Version: 1.1
+Section: feeds
+Architecture: all
+MD5Sum: 786df49f24ef2dbc68482add42d0ed7d
+Size: 882
+Filename: enigma2-plugin-systemplugins-hmmmdada-beta-feed_1.1_all.ipk
+Description: Beta Feed for hmmmdada plugins
+Maintainer: hmmdada
+Priority: optional
+Source: 
+Homepage: 
+License: closed
 
 
 Package: enigma2-plugin-extensions-epgshare

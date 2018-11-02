@@ -1,3 +1,19 @@
+Package: enigma2-plugin-systemplugins-boxfind
+Version: 1.39+git0+c0faac2bb9-r0
+Depends: python-core, libpython2.7-1.0 (>= 2.7.9), libc6 (>= 2.21)
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: 509464a30f8c5332ae9c518e1d6fbbb4
+Size: 32036
+Filename: enigma2-plugin-systemplugins-boxfind_1.39+git0+c0faac2bb9-r0_armv7ahf-vfp-neon.ipk
+Description: BoxFind Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
+OE: enigma2-plugin-systemplugins-boxfind
+License: CLOSED
+
+
 Package: enigma2-plugin-systemplugins-alexaservice
 Version: 2.64+git0+d155a702f8-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-six, enigma2-plugin-systemplugins-globalsearch, python-requests, python-core, python-levenshtein, libc6 (>= 2.21), python-fuzzywuzzy
@@ -46,6 +62,21 @@ OE: enigma2-plugin-systemplugins-globalsearch
 License: CLOSED
 
 
+Package: enigma2-plugin-systemplugins-hmmmdada-beta-feed
+Version: 1.1
+Section: feeds
+Architecture: all
+MD5Sum: 786df49f24ef2dbc68482add42d0ed7d
+Size: 882
+Filename: enigma2-plugin-systemplugins-hmmmdada-beta-feed_1.1_all.ipk
+Description: Beta Feed for hmmmdada plugins
+Maintainer: hmmdada
+Priority: optional
+Source: 
+Homepage: 
+License: closed
+
+
 Package: enigma2-plugin-extensions-epgshare
 Version: 5.82+git0+8827fa8d43-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-core, python-json, enigma2, python-requests, python-imaging, libc6 (>= 2.21), enigma2-plugin-systemplugins-boxfind
@@ -59,22 +90,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/epgshare.git;protocol=http; file://setup.py
 OE: enigma2-plugin-extensions-epgshare
-License: CLOSED
-
-
-Package: enigma2-plugin-systemplugins-boxfind
-Version: 1.38+git0+c0faac2bb9-r0
-Depends: python-core, libpython2.7-1.0 (>= 2.7.9), libc6 (>= 2.21)
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: 137b8eed6217185ffdf28d86dde4f4c8
-Size: 32042
-Filename: enigma2-plugin-systemplugins-boxfind_1.38+git0+c0faac2bb9-r0_armv7ahf-vfp-neon.ipk
-Description: BoxFind Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/boxfind.git;protocol=http; file://setup.py
-OE: enigma2-plugin-systemplugins-boxfind
 License: CLOSED
 
 
