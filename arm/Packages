@@ -94,13 +94,13 @@ License: CLOSED
 
 
 Package: enigma2-plugin-extensions-vmc5
-Version: 1.188+git0+57576bd397-r0
+Version: 1.189+git0+7fecb57628-r0
 Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
 Section: base
 Architecture: armv7ahf-vfp-neon
-MD5Sum: 49bcaf9ba0e6e42d107e47cbb79cc19f
-Size: 5270482
-Filename: enigma2-plugin-extensions-vmc5_1.188+git0+57576bd397-r0_armv7ahf-vfp-neon.ipk
+MD5Sum: 86f563eba16cfabe1e0694ebb0362710
+Size: 5270140
+Filename: enigma2-plugin-extensions-vmc5_1.189+git0+7fecb57628-r0_armv7ahf-vfp-neon.ipk
 Description: VMC5 Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
