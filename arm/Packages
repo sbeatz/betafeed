@@ -30,6 +30,22 @@ OE: enigma2-plugin-systemplugins-boxfind
 License: CLOSED
 
 
+Package: enigma2-plugin-extensions-vmc5
+Version: 1.191+git0+c605180a65-r0
+Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: d6a1efe138493873b00ce3e588aeec35
+Size: 5270206
+Filename: enigma2-plugin-extensions-vmc5_1.191+git0+c605180a65-r0_armv7ahf-vfp-neon.ipk
+Description: VMC5 Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
+OE: enigma2-plugin-extensions-vmc5
+License: CLOSED
+
+
 Package: enigma2-plugin-skin-fluid
 Version: 3.123+git0+1723d3a7be-r0
 Depends: libpython2.7-1.0 (>= 2.7.9), python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-core, libc6 (>= 2.21), python-imaging
@@ -90,22 +106,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/epgshare.git;protocol=http; file://setup.py
 OE: enigma2-plugin-extensions-epgshare
-License: CLOSED
-
-
-Package: enigma2-plugin-extensions-vmc5
-Version: 1.189+git0+7fecb57628-r0
-Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-ujson, python-pycrypto, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: 86f563eba16cfabe1e0694ebb0362710
-Size: 5270140
-Filename: enigma2-plugin-extensions-vmc5_1.189+git0+7fecb57628-r0_armv7ahf-vfp-neon.ipk
-Description: VMC5 Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
-OE: enigma2-plugin-extensions-vmc5
 License: CLOSED
 
 
