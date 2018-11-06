@@ -94,13 +94,13 @@ License: CLOSED
 
 
 Package: enigma2-plugin-extensions-vmc5
-Version: 1.204+git0+bbc29df0b9-r0
+Version: 1.205+git0+8ac9232dbf-r0
 Depends: e2fsprogs-resize2fs, python-peewee, python-core, python-pycrypto, python-ujson, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
 Section: base
 Architecture: mips32el
-MD5Sum: 2f3f7523f53d6019fa2ba8ed305f6053
-Size: 5129574
-Filename: enigma2-plugin-extensions-vmc5_1.204+git0+bbc29df0b9-r0_mips32el.ipk
+MD5Sum: 8e6ce46e5acb88c57cb85fa3384a57e1
+Size: 5131620
+Filename: enigma2-plugin-extensions-vmc5_1.205+git0+8ac9232dbf-r0_mips32el.ipk
 Description: VMC5 Plugin for VTI
 Maintainer: hmmmdada
 Priority: optional
