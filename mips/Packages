@@ -1,3 +1,19 @@
+Package: enigma2-plugin-extensions-vmc5
+Version: 1.207+git0+204609cb68-r0
+Depends: e2fsprogs-resize2fs, python-peewee, python-core, python-pycrypto, python-ujson, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
+Section: base
+Architecture: mips32el
+MD5Sum: 1a4965701e5cc1b516514caa492e2ef1
+Size: 5149254
+Filename: enigma2-plugin-extensions-vmc5_1.207+git0+204609cb68-r0_mips32el.ipk
+Description: VMC5 Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
+OE: enigma2-plugin-extensions-vmc5
+License: CLOSED
+
+
 Package: enigma2-plugin-skin-fluid
 Version: 3.123+git0+1723d3a7be-r0
 Depends: python-core, python-ultrajson, enigma2-plugin-systemplugins-exteventinfohandler, python-requests, python-imaging, libc6 (>= 2.21)
@@ -90,22 +106,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://192.168.2.63:3000/Henrik/alexaservice.git;protocol=http; file://setup.py
 OE: enigma2-plugin-systemplugins-alexaservice
-License: CLOSED
-
-
-Package: enigma2-plugin-extensions-vmc5
-Version: 1.205+git0+8ac9232dbf-r0
-Depends: e2fsprogs-resize2fs, python-peewee, python-core, python-pycrypto, python-ujson, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, gstreamer1.0-plugins-ugly-lame, libmp3lame0
-Section: base
-Architecture: mips32el
-MD5Sum: 8e6ce46e5acb88c57cb85fa3384a57e1
-Size: 5131620
-Filename: enigma2-plugin-extensions-vmc5_1.205+git0+8ac9232dbf-r0_mips32el.ipk
-Description: VMC5 Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
-OE: enigma2-plugin-extensions-vmc5
 License: CLOSED
 
 
