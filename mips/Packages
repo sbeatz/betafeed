@@ -109,3 +109,19 @@ OE: enigma2-plugin-systemplugins-alexaservice
 License: CLOSED
 
 
+Package: enigma2-plugin-extensions-vmc5
+Version: 1.225+git0+dc42d5f43a-r0
+Depends: e2fsprogs-resize2fs, python-peewee, python-core, python-pycrypto, gstreamer1.0-plugins-good-lame, python-ujson, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, libmp3lame0
+Section: base
+Architecture: mips32el
+MD5Sum: 929c33f1e1eb9de85fd5ab080cad99d5
+Size: 4454630
+Filename: enigma2-plugin-extensions-vmc5_1.225+git0+dc42d5f43a-r0_mips32el.ipk
+Description: VMC5 Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
+OE: enigma2-plugin-extensions-vmc5
+License: CLOSED
+
+

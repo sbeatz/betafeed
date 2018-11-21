@@ -62,6 +62,22 @@ OE: enigma2-plugin-systemplugins-globalsearch
 License: CLOSED
 
 
+Package: enigma2-plugin-extensions-vmc5
+Version: 1.225+git0+dc42d5f43a-r0
+Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-pycrypto, gstreamer1.0-plugins-good-lame, python-ujson, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, libmp3lame0
+Section: base
+Architecture: armv7ahf-vfp-neon
+MD5Sum: 3b24fe8e4ad8cc690924ece141bacb51
+Size: 4624370
+Filename: enigma2-plugin-extensions-vmc5_1.225+git0+dc42d5f43a-r0_armv7ahf-vfp-neon.ipk
+Description: VMC5 Plugin for VTI
+Maintainer: hmmmdada
+Priority: optional
+Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
+OE: enigma2-plugin-extensions-vmc5
+License: CLOSED
+
+
 Package: enigma2-plugin-systemplugins-hmmmdada-beta-feed
 Version: 1.1
 Section: feeds
@@ -90,22 +106,6 @@ Maintainer: hmmmdada
 Priority: optional
 Source: git://git@192.168.2.63:3000/Henrik/epgshare.git;protocol=http; file://setup.py
 OE: enigma2-plugin-extensions-epgshare
-License: CLOSED
-
-
-Package: enigma2-plugin-extensions-vmc5
-Version: 1.224+git0+57880ab009-r0
-Depends: e2fsprogs-resize2fs, libpython2.7-1.0 (>= 2.7.9), python-peewee, python-core, python-pycrypto, gstreamer1.0-plugins-good-lame, python-ujson, python-six, python-mechanize, gstreamer1.0-plugins-ugly-dvdlpcmdec, python-futures, e2fsprogs-tune2fs, libsqlite3-0, gstreamer1.0-plugins-base-apps, python-subprocess, python-singledispatch, python-beautifulsoup4, libc6 (>= 2.21), python-apsw, python-multiprocessing, ffmpeg, python-pkgutil, python-mutagen, python-requests, python-imaging, python-sqlite3, libmp3lame0
-Section: base
-Architecture: armv7ahf-vfp-neon
-MD5Sum: a59b267b21ce069aaa63fc6a4917c4ca
-Size: 4620704
-Filename: enigma2-plugin-extensions-vmc5_1.224+git0+57880ab009-r0_armv7ahf-vfp-neon.ipk
-Description: VMC5 Plugin for VTI
-Maintainer: hmmmdada
-Priority: optional
-Source: git://git@192.168.2.63:3000/Henrik/vmc5.git;protocol=http; file://setup.py
-OE: enigma2-plugin-extensions-vmc5
 License: CLOSED
 
 
